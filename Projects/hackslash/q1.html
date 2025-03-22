@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <div id="h3">
+      <h3 id="colaborate">Lets Collaborate</h3>
+    </div>
+  </div>
+  <div id="imagefirst">
+    <div id="divfirst">
+      <div id="AI">
+        AI+RPA is what we do
+      </div><br><br>
+      <div id="future">
+        Future-Proof your business. Drive efficiency, profitability and deliver on customer experience
+      </div>
+      <DIV id="automation">
+        <h3 id="rpa">AI+RPA Automation <span id="first">&#8594;</span></h3>
+      </div>
+    </div>
+    <div>
+      <img src="https://lets-collab-rust.vercel.app/static/media/s1-image.d6d4b7703bc14f99bb7e.jpg" alt="invalid">
+    </div>
+  </div>
+  <div id="imagesecond">
+  <div id="divsecond">
+    <div id="Make">
+      Make Bolder Choices
+    </div>
+    <div id="digital">
+      Digital focused strategies to realize market-changing ideas
+    </div>
+    <div id="build">
+      <h3>Build Better Apps <span>&#8594;</span></h3>
+    </div>
+  </div>
+  <div>
+
+    <img id="collab" src="https://lets-collab-rust.vercel.app/static/media/s2-image.e0b53b689fd9881066ec.png" alt="">
+  </div>
+</div>
+<div id="thirdimage">
+  <div id="thirddiv">
+    <div id="speed">Innovate With Speed</div>
+    <div id="Create">
+      <h4 id="quality">Create higher quality software, deliver on customer expectations and business goals</h4>
+    </div>
+    <div id="dev">
+      <h3 id="ops">DevOps <span>&#8594;</span></h3>
+    </div>
+  </div>
+
+  <div id="static">
+    <img id="vercel" src="https://lets-collab-rust.vercel.app/static/media/s3-image.8bc14b86ce6eff22c3cb.jpg" alt="invalid">
+  </div>
+</div>
+
+<div id="fourthimage">
+<div>
+  <div id="cloud">Embrace Cloud</div>
+  <div id="accelerate">
+    <h3 id="optimize">With Cloud-First accelerate innovation and optimize performance</h3>
+  </div>
+  <div id="service">
+    <h3>Cloud Services <span>&#8594;</span></h3>
+  </div>
+  </div>
+<div>
+
+  <img  id="four" src="https://lets-collab-rust.vercel.app/static/media/s4-image.e02e593de8014f43f419.jpg" alt="invalid">
+</div>
+</div>
+<button id="button" onclick="changecolor()">Toggle Night Mode</button>
+
+  </DIV>
+  <script>
+//     function changecolor() {
+//     document.body.classList.toggle("dark-mode");
+// }
+function changecolor() {
+    let body = document.body;
+    let button = document.getElementById("button");
+
+    body.classList.toggle("dark-mode");
+
+    if (body.classList.contains("dark-mode")) {
+        button.innerText = "Toggle Light Mode";
+    } else {
+        button.innerText = "Toggle Dark Mode";
+    }
+}
+
+      
+    
+  </script>
+</body>
+
+</html>
