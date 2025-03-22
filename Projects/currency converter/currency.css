@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding :0px;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 30PX;
+    padding: 2rem;
+    justify-content: center;
+    width: 399px;
+}
+#amount{
+    padding-top: 10px;
+}
+#value{
+    height: 30px;
+    border-radius: 5px;
+}
+
+#from{
+    display: flex;
+    width: 133px;
+    border: 2px solid #B3C8CF;
+    border-radius: 5px;
+}
+#to{
+    
+    display: flex;
+    width: 133px;
+    border: 2px solid #B3C8CF;
+    border-radius: 5px;
+}
+#icon{
+    width: 133px;
+    
+    margin-top: 30px;
+    text-align: center;
+}
+#country{
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+}
+#currency{
+   margin-top: 30px;
+    display: flex;
+}
+
+#equality{
+    margin-top: 30px;
+}
+#btn{
+    margin-top: 35px;
+   padding: 10px;
+   border-radius: 5px;
+   margin-left: 60px;
+   text-align: center;
+   font-size: 30px;
+   background-color: purple;
+   color: white;
+}
