@@ -1,0 +1,178 @@
+* {
+  margin-left: 20PX;
+  body {
+    font-family: 'Roboto Slab',serif;font-size: 22px;
+}
+}
+
+#h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline;
+  width: 1060px;
+  height: 31px;
+  margin: 31.92px 0px 48px;
+  padding: 0px 0px 0px 24px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#colaborate {
+  width: 1060px;
+}
+
+#AI {
+  color: #212529;
+  font: 48px"Roboto Slab", serif;
+  width: 424.31px;
+  height: 121.6px;
+}
+
+#AI {
+  width: 320px;
+}
+
+#future {
+  width: 430px;
+  height: 120px;
+}
+
+#automation {
+  display: flex;
+  width: 300px;
+}
+
+#rpa {
+  width: 300px;
+  height: 60px;
+  margin: 0px;
+  display: inline;
+}
+#first{
+  margin left: 20px;: 20px;}
+
+#Make {
+  color: #212529;
+  font: 48px"Roboto Slab", serif;
+  width: 324.31px;
+  height: 131.6px;
+}
+
+#digital {
+  width: 400px;
+  height: 60px;
+}
+#build{
+  margin: 0px;
+}
+#dev{
+  margin: 0px;
+  height: 60px;
+}
+#service{
+  margin: 0px;
+}
+#speed {
+  color: #212529;
+  font: 48px"Roboto Slab", serif;
+  width: 324.31px;
+  height: 108px;
+  margin: 0px;
+}
+#Create{
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+#quality{
+  margin: 0px;
+}
+#cloud {
+  color: #212529;
+  font: 48px"Roboto Slab", serif;
+  width: 324.31px;
+  height: 108px;
+}
+#optimize{
+  width:500px ;
+  margin: 0px;
+}
+#quality{
+  width: 400px;
+}
+#ops{
+  margin: 0px;
+}
+#divfirst{
+  width: 550px;
+}
+#imagefirst{
+  display: flex;
+}
+#secondimage{
+  width: 450px;
+  display: flex;
+}
+#divsecond{
+  width: 450px;
+}
+#imagesecond{
+  display: flex;
+  height: 300px;
+}
+#collab{
+  width: 540px;
+  height: 300px;
+  margin-left: 115px;
+}
+#collab:hover{
+
+}
+
+
+#thirddiv{
+width: 450px;
+height: 300px;
+}
+#thirdimage{
+  display: flex;
+}
+#vercel{
+  height: 305.12px;
+  width: 540px;
+  margin-left: 115px;
+}
+#fourthimage{
+  display: flex;
+}
+#four{
+  width: 540px;
+  height: 350px;
+  margin-left: 45px;
+}
+#button{
+  width: 200px;
+  height: 50px;
+  color: azure;
+  background-color: black;
+}
+.dark-mode {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+.dark-mode h3, 
+.dark-mode h4, 
+.dark-mode div, 
+.dark-mode p {
+  color: white !important;
+}
+
+.dark-mode img {
+  filter: brightness(0.8);
+}
+
+.dark-mode #button {
+  background-color: white !important;
+  color: black !important;
+}
+
